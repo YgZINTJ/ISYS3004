@@ -1,0 +1,7 @@
+Semantic HTML:
+    Use semantic elements to structure the page content logically.
+    Use <header> for the header section.
+    Use <nav> for the navigation menu.
+    Use <main> to enclose the main content sections.
+    Use <section> to separate different content sections.
+    Use <footer> for the footer section.

@@ -4,11 +4,42 @@ Initial CSS
    Description: Styling for Flatland
    Version: 1.0
 */
-body {
-  font-family: "Helvetica", "Arial", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  width: 50%;
-  padding: 100px;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+
+
+header {
+  background: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+
+}
+
+#nav1 ul {
+  list-style: none;
+  padding: 0;
+}
+
+#nav1 ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+#nav1 ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#nav1 ul li a:hover {
+  text-decoration: underline;
 }
 
 #words {

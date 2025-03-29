@@ -8,47 +8,40 @@
 
 </head>
 <body>
+
     <header>
         <h1>Assessment ONE</h1>
         <nav>
             <ul>
                 <li><a href="main.html">Module 1</a></li>
                 <li><a href="dummyTexts.html">Module 2</a></li>
+                <a class = "skip-link" href = "#main_content">skip to main content</a>
                 <li><a href="RPS.html">Module 3</a></li>
                 <li><a href="flatland_1.html">Module 4</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <div id="section1">
-            <section>
-                <h2>Click here to see the Basic Webpage</h2>
+    <main id = "main_content" role="main">          
+        <section id = "section1" role="button" + tabindex="0">
+                <h2>To the page of the Basic Webpage</h2>
                 <p>Lab of Week 2 (understanding HTML & CSS).</p>
-            </section>
-        </div>
+        </section>
+    
+        <section id = "section2" role="button" + tabindex="0">
+            <h2>To the page of the RPS game</h2>
+            <p>Lab of week 3 (a Javascript glimpse)</p>
+        </section>        
         
-        <div id="section2">
-            <section>
-                <h2>Click here to see the RPS game</h2>
-                <p>Lab of week 3 (a Javascript glimpse)</p>
-            </section>
-        </div>
-        
-        <div id="section3">
-            <section>
-                <h2>Click here to see the Flatland page</h2>
-                <p>Lab of week 4 (further steps on Javascript learning)</p>
-            </section>
-        </div>
-        
+        <section id = "section3" role="button" + tabindex="0">
+            <h2>To the page of the Flatland page</h2>
+            <p>Lab of week 4 (further steps on Javascript learning)</p>
+        </section>
 
-        <div id = "section4">
-            <section>
-                <h2>Click here to see the RSS page</h2>
-                <p>Lab of week 5 (the Call and Fetch of APIs)</p>
-            </section>
-        </div>
+        <section id = "section4" role="button" + tabindex="0">
+            <h2>To the page of the RSS page</h2>
+            <p>Lab of week 5 (the Call and Fetch of APIs)</p>
+        </section>
 
     </main>
 

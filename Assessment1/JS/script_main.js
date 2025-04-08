@@ -16,7 +16,7 @@ function jumpPage3 (){
     window.location.href = "flatland_1.html";
 }
 function jumpPage4 (){
-    window.location.href = "#";
+    window.location.href = "RSS.html";
 }
 
 clickBox1.addEventListener("click", (event) => jumpPage1())

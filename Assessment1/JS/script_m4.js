@@ -48,21 +48,10 @@ function createBuzzwordPhrase() {
 
 
 /* Add event listener */
-square.addEventListener('click', (event) =>clicked());
+square.addEventListener('mouseover', (event) =>clicked());
 square.addEventListener('mouseover', (event)=> changeColour('gray'));
 square.addEventListener('mouseout',(event)=> changeColour('red'));
 
 
-
-/* Lets add behaviour when clicked This makes sense to have in JavaScript as it
-   'dynamic'
-   
-   1st-version, simple message added to innerHTML
-   
-   2nd-version, use buzzword generator */
-
-   
-/* This function is supplied in the supporting text file.
-   students will only have to copy-n-paste the function */
 
    

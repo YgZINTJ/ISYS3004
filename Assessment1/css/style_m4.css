@@ -1,17 +1,11 @@
-Initial CSS
-/* Name: style.css
-   Author: Michael Borck, michael.borck@curtin.edu.au
-   Description: Styling for Flatland
-   Version: 1.0
-*/
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Helvetica", "Arial", sans-serif;
 }
-
-
 
 header {
   background: #007bff;
@@ -20,6 +14,15 @@ header {
   text-align: center;
   font-family: Arial, sans-serif;
 
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 #nav1 ul {
@@ -59,4 +62,43 @@ header {
     width: 200px;
     height:200px;
     background: red;
+}
+
+/* Footer styles*/
+footer {
+  background: #383535;
+  color: white;
+  text-align: center;
+  font-style: italic;
+  padding: 15px;
+  margin-top: auto;
+}
+
+footer a{
+  color: #0066cc;
+  text-decoration: none;
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
+
+/* Device adapability */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    padding: 15px;
+  }
+  h1 {
+    font-size: 2em;
+  }
+}
+
+/* Desktop view */
+@media (min-width: 1025px) {
+  body {
+    padding: 20px;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
 }

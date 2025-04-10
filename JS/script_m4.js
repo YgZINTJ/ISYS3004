@@ -1,9 +1,3 @@
-/*--
-Step 1, cut-n-paste from HTML, add link to HTML
-
----*/
-
-/* Find elements in DOM tree, assign to variable (best practice) */
 var square = document.getElementById('square');
 var words = document.getElementById('words');
 document.onload = greeting();
@@ -42,9 +36,15 @@ function createBuzzwordPhrase() {
 
 
 /* Add event listener */
-square.addEventListener('mouseover', (event) =>clicked());
-square.addEventListener('mouseover', (event)=> changeColour('gray'));
-square.addEventListener('mouseout',(event)=> changeColour('red'));
+square.addEventListener('click', function(event){
+   clicked();
+});
+square.addEventListener('mouseover', function(event){
+   changeColour('gray'); 
+});
+square.addEventListener('mouseout',function(event){
+      changeColour('red');
+});
 
 
 

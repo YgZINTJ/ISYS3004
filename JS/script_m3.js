@@ -17,7 +17,7 @@ function play(user) {
     if (user === 'scissors') {
         result = "lose";
     }
-    var myMessage = "Computer chose rock, you " + result + "!"
+    var myMessage = "Computer chose rock, you " + result + "!";
     alert(myMessage);
     say(myMessage);
 }

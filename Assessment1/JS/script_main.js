@@ -1,10 +1,10 @@
 /**
  * 
  */
-let clickBox1 = document.getElementById("section1")
-let clickBox2 = document.getElementById("section2")
-let clickBox3 = document.getElementById("section3")
-let clickBox4 = document.getElementById("section4")
+let clickBox1 = document.getElementById("section1");
+let clickBox2 = document.getElementById("section2");
+let clickBox3 = document.getElementById("section3");
+let clickBox4 = document.getElementById("section4");
 
 function jumpPage1 (){
     window.location.href = "dummyTexts.html";

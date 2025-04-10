@@ -29,7 +29,7 @@ function greeting() {
 
 function clicked(){
    let msg = 'Build a <br>' + createBuzzwordPhrase();
-   words.innerHTML = msg
+   words.innerHTML = msg;
 }
 
 function createBuzzwordPhrase() {

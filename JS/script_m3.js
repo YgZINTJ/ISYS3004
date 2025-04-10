@@ -1,6 +1,6 @@
 /* https://stackoverflow.com/questions/15653145/using-google-text-to-speech-in-javascript */
 function say(m) {
-    let msg = new SpeechSynthesisUtterance(m);
+    var msg = new SpeechSynthesisUtterance(m);
     speechSynthesis.speak(msg);
 }
 
@@ -17,7 +17,7 @@ function play(user) {
     if (user === 'scissors') {
         result = "lose";
     }
-    let myMessage = "Computer chose rock, you " + result + "!"
+    var myMessage = "Computer chose rock, you " + result + "!"
     alert(myMessage);
     say(myMessage);
 }

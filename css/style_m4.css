@@ -83,6 +83,16 @@ footer a:hover{
   text-decoration: underline;
 }
 
+.skip-link {
+  position: absolute;
+  left: -10000px;
+  overflow: hidden;
+}
+
+.skip-link:focus {
+  left: 10px; /* Visible when focused */
+}
+
 /* Device adapability */
 @media (min-width: 601px) and (max-width: 1024px) {
   body {

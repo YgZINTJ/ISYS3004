@@ -62,6 +62,16 @@ nav a:hover{
   text-align: left;
 }
 
+.skip-link {
+  position: absolute;
+  left: -10000px;
+  overflow: hidden;
+}
+
+.skip-link:focus {
+  left: 10px; /* Visible when focused */
+}
+
 /* I Googled 'letter inside a circle CSS'. Looked at the best answer, 'seems' to
     make sense so copy-n-paste. Added source reference within CSS (example below)
     and then modified rules to suite my needs.

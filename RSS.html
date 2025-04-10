@@ -10,7 +10,7 @@
   <header>
     <h1>Multi-Feed RSS Dashboard</h1>
     <nav>
-        <a class = "skip-link" href = "#main_content">skip to main content</a>
+        <a class = "skip-link" href = "#main">skip to main content</a>
         <ul>
           <li><a href="index.html">Home Page</a></li>
           <li><a href="dummyTexts.html">DummyText Page</a></li>
@@ -20,15 +20,17 @@
         </ul>
     </nav>
   </header>
+    <main id="main">
+      <!-- Feed Selector -->
+      <label for="feed-selector">Choose a feed:</label>
+      <select id="feed-selector">
+        <option value="https://podcastfeeds.nbcnews.com/HL4TzgYC">Date Lines</option>
+        <option value="http://feeds.bbci.co.uk/news/world/rss.xml">BBC World News</option>
+      </select>
+      <!-- Container for RSS feed content -->
+      <div id="content"></div>
+    </main>
 
-    <!-- Feed Selector -->
-    <label for="feed-selector">Choose a feed:</label>
-    <select id="feed-selector">
-      <option value="https://podcastfeeds.nbcnews.com/HL4TzgYC">Date Lines</option>
-      <option value="http://feeds.bbci.co.uk/news/world/rss.xml">BBC World News</option>
-    </select>
-    <!-- Container for RSS feed content -->
-    <div id="content"></div>
     <script src="../js/script_m5.js"></script>
   </body>
   <footer>
